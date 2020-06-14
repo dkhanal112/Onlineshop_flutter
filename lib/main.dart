@@ -100,6 +100,26 @@ class _HomePageState extends State<HomePage> {
                 leading: Icon(Icons.favorite),
               ),
             ),
+
+            Divider(),
+            InkWell(
+              onTap: (){},
+              child: ListTile(
+                title:Text("Settings") ,
+                leading: Icon(Icons.settings),
+              ),
+            ),
+
+            InkWell(
+              onTap: (){},
+              child: ListTile(
+                title:Text("About") ,
+                leading: Icon(Icons.help),
+              ),
+            ),
+
+
+
           ],
         ),
       ),
